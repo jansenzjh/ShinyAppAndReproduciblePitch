@@ -1,0 +1,39 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Jianheng Zhang"
+date: "06/17/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Diamond Data Analysis Report
+
+Diamond Data Analysis Report allow user to review the price of diamond based on the user input such as carat, Cut, Color and Clarity.
+
+Please use PageUp/PageDown or Left/Right Arrow keys to visit the slides.
+
+## Application Overview
+
+- Diamonds Properties can be analysed using several Parameters: carat, Cut, Color and Clarity are some of the common parameters. The Report allow users to get the right price for the right parameters.
+
+
+## Slide with Complete Reporting Appliaction
+
+Following link is the shiny host of the Application.
+
+https://jansen.shinyapps.io/shinyappandreproduciblepitch/
+
+Following link is the github of the project.
+
+https://github.com/jansenzjh/ShinyAppAndReproduciblePitch
+
+## Data
+The data set that was used in this project is diamonds data set, which is part of ggplot2 package. Containing information about 53940 diamonds with 10 variables.
+
+```{r, echo=TRUE}
+library("ggplot2")
+head(diamonds)
+```
